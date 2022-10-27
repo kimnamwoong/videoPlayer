@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <title>My Note App</title>
+    
+</head>
+<body>
+	<div class="popup-box">
+		<div class="popup">
+			<div class="content">
+				<header>
+					<p>Add a new Note.</p>
+					<i class="fa-solid fa-xmark"></i>
+				</header>
+				
+				<form action="#">
+					<div class="row-title">
+						<label>Title</label>
+						<input type="text">
+					</div>
+					<div class="row-description">
+						<label>Description</label>
+						<textarea></textarea>
+					</div>
+					<button>Add New Note</button>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+	<main class="wrapper">
+		<li class="add-box">
+			<div class="icon"><i class="fa-solid fa-plus"></i></div>
+			<p>Add new note</p>
+		</li>
+	</main>
+	
+	<script src="main.js" defer></script>
+</body>
+</html>
